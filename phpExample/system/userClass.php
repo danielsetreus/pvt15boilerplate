@@ -8,8 +8,8 @@
 	
 	// Array som håller respektive användares roll - i verkligheten info från en databastabell
 	$privs = array(
-		array ('privLevel' => 'user'),
-		array ('privLevel' => 'recruiter'),
+		'1' => array ('privLevel' => 'user'),
+		'2' => array ('privLevel' => 'recruiter'),
 	);
 	
 	
