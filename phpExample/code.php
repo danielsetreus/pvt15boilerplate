@@ -45,6 +45,14 @@ header('Content-Type: text/html; charset=utf-8');
 		
 		echo $source;
 	?></code></pre>	
+	
+	<h1>javaCode/CallJava.class</h1>
+	<pre><code class="prettyprint"><?php
+		$source = file_get_contents("javaCode/CallJava.java"); 
+		$source = htmlspecialchars($source); 
+		
+		echo $source;
+	?></code></pre>	
 </div>
 
 </body>

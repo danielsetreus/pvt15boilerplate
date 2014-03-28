@@ -67,8 +67,8 @@ header('Content-Type: text/html; charset=utf-8');
 <h3>Exempel på att kalla / köra Java från PHP:</h3>
 <div class="well">
 	<?php
-		system('java -classpath javaCode CallJava', $retval);
-		echo $retval;
+		exec('java -classpath javaCode CallJava Mitt-Argument', $retval);
+		echo $retval[0];
 	?>
 </div>
 
